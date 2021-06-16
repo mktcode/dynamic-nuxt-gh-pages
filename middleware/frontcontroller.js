@@ -1,3 +1,4 @@
-export default function (context) {
-  console.log(context)
+export default function ({ app, base, route }) {
+  const path = route.hash.replace('#/' + base, '/')
+  app.router.push(path)
 }

@@ -1,4 +1,4 @@
-export default function ({ base, route, redirect }) {
-  const path = route.hash.replace('#' + base, '/')
+export default function ({ route, redirect }) {
+  const path = route.hash.replace('#', '')
   redirect(path)
 }

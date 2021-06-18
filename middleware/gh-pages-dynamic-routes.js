@@ -1,6 +1,6 @@
 export default function (context) {
   const path = context.route.hash.replace('#!', '')
-  if (path.length && context.app.router.resolve(path).resolved.matched.length) {
+  if (path.length) {
     context.redirect(path)
   }
 }

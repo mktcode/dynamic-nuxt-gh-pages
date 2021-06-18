@@ -7,7 +7,7 @@ export default {
 
   router: {
     base: '/dynamic-nuxt-gh-pages/',
-    middleware: 'frontcontroller'
+    middleware: 'gh-pages-dynamic-routes'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head

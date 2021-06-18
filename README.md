@@ -2,7 +2,7 @@
 
 [Demo](https://mktcode.github.io/dynamic-nuxt-gh-pages/post/my-post-title)
 
-Last part of the path is dynamic.
+Last part of the route is dynamic.
 
 ## How it works
 
